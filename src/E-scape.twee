@@ -14,11 +14,13 @@
 E-Scape
 
 :: Start 
-Name : Erson
+Occupation: Pilot and Monitor of Nexus-Orbital Flight 727
 
-Occupation: Interstellar Mechanic
 
-Location : Most recent data represents a distance of 40,000 lightyears from the <<linkappend "last resource station" t8n>>
+Member : Commander Erson
+
+
+Location : Most recent data represents a distance of 40,000 miles from the <<linkappend "last resource station" t8n>>
        <<audio "Brown" play>>
         [[This was 4 days ago.]]
 
@@ -26,78 +28,751 @@ Location : Most recent data represents a distance of 40,000 lightyears from the 
 
 :: This was 4 days ago.
 
-      At the speed the ship usually travels, 40,000 lightyears must be a fraction of the distance.
+ Based on the ships usual velocity, 40,000 must be a fraction of the distance.
                  <<linkappend "Run the calculations" t8n>>
                
                
-                The computer is having trouble reaching a conclusion. The equation is rather simple, 
-                so you <<linkappend "look for data" t8n>> on the ships speed.  /* how to have a link append in the middle of a sentence */
-                <<audio "Boop" play>>
-
-                You find the reason for the computer's delay. The speed sensors are uncalibrated.
+                The A.I. is having trouble reaching a conclusion. The equation is rather simple, 
+                so you <<link"look for data" >><<addclass ".hidden" "nothidden">><</link>>  on the ships speed. 
+              @@.hidden; 
+                You find the reason for the delay. The speed sensors are uncalibrated.
                 
+
                 <<linkappend "Recalibrate" t8n>>
                 <<goto "Recalibrate">>
                 
                 <</linkappend>>
-              <</linkappend>>  
+                <<audio "Boop" play>>
+
+             
            <</linkappend>>
       
 
 :: Recalibrate
-The system notions toward a physical disruption. Manual maintenance is recommended. 
+The system notions toward a small particulate obstruction. Manual maintenance is recommended. 
 
-The sensor is on the exterior of the ship. A spacewalk is necessary to complete a repair
+The sensor is on the <<linkappend "exterior of the ship.">> 
+
+ A spacewalk is necessary to clear the obstruction
+  
+[[Ignore the obstruction.]]
 
 [[Suit up]]
+<</linkappend>>
+:: Suit up 
 
-[[Ignore the faulty speed sensor]]
+Its protocol to have another crew member watch over the command center while you exit the craft.
+
+But with it being such a casual systems check, <<linkappend "you wonder if its necessary." t8n>> 
 
 
-:: Ignore the faulty speed sensor
+
+[[Deinitiate hibernation sequence for Member : Crew]]
+
+[[Suit up and take the space walk without backup.]] 
+/* This leads to a second warning after the resource station that is more dire, not giving any time to even decide to revive a member from hibernation */
+<</linkappend>>
+:: Suit up and take the space walk without backup. 
+
+Based on the usual route, the next resource station should be coming up within the next few hours.
+
+You decide to wait until you dock at the station to view the ships exterior.
+
+[[You reside to your quarters for some rest|falling asleep]]
+
+:: Deinitiate hibernation sequence for Member : Crew
+
+<<audio "Boop" stop>>
+You snooze the warning audio, and begin the gradual revitilzation of Crew's motor functions. 
+
+You <<linkappend "listen to some music in the meantime">>
+/* some good tune 
++ beeps and boops and gass off sounds
+plays for a bit*/
+
+Crew: I get this is your favorite song, but I hate waking up to it
+Especially not when I have to wake up to [[work for you]]
+<</linkappend>>
+:: work for you 
+
+Erson: How do you know I need <<linkappend "your assistance">>
+
+Crew: Im the only [[one revived.]]
+<</linkappend>>
+:: one revived.
+And I [[dont smell]] dinner for two
+
+:: dont smell
+And I dont smell dinner for two.
+
+Erson : Come on then, not too much exertion on your end. Just protocol. Need a set of eyes on the knobs and beep boops.
+
+[[You suit up]]
+
+:: You suit up
+Gas pipe suction sounds clicking in place and such
+
+Breathing homage to 2001 low volume
+
+Along with your space suit, you attach a cleaning kit and a communication relay.
+
+You set out to the [[air-lock chamber]]
+
+:: air-lock chamber
+
+You make your way to the exit hatch.
+
+You attach your suit to a rope extruding from a panel on the <<linkappend "edge of the ship.">>
+<<audio "Breathing" play>>
+You make your way towards to the speed sensor.
+
+[[Slowly.]]
+<</linkappend>>
+
+:: Slowly.
+
+Erson: 150 feet from the sensor. 
+
+Crew: I see you.
+
+Erson: Just wanted to know you were watching
+
+Crew: Right...
+
+Erson: [[Can you see that too?]]
+
+:: Can you see that too?
+
+Erson: Can you see that too?
+
+Crew: <<linkappend "Describe it.">>
+
+Erson: Near the sensor, shimmering.
+
+Crew: I do, figured it was supposed to be there.
+
+Erson: [[Approaching the panel now.]]
+
+<</linkappend>>
+
+:: Approaching the panel now.
+
+Erson: It is certainly  <<linkappend "obstructed.">>
+
+Crew: Is it more degraded foil? 
+
+Erson: It seems organic.
+
+Crew: <<linkappend "Elaborate">>
+
+Erson: [[Tree sap.]]
+
+
+<</linkappend>>
+<</linkappend>>
+
+:: Tree sap.
+
+Crew: It might be carbon-based, but I'd be damned if it was from a lifeform.
+
+Erson: Whats <<linkappend "the protocol.">>
+
+Crew: Clean up the sensor. We'll [[run tests]] on one of the rags.
+
+It could be an engine leakage that the A.I. isn't picking up
+<</linkappend>>
+
+:: run tests
+
+Once back in the ship and out of your suit, you run the amber substance through various machines
+
+All tests and cross reference by the A.I. should be completed in approximately 15 hours.
+
+Now that the speed sensor is engaged again, you [[check the ETA]] of the next resource station.
+
+:: check the ETA
+
+It'll be approximately 12 hours until Auto-Sequences engage for landing at Resource Station L-One.
+
+You look forward to being able to analyze the results for the amber subtance out on the [[Resource Station's pavilion.]]
+
+:: Resource Station's pavilion.
+Feeling calm, you <<linkappend "settle down in the lounge area.">>
+
+[[You fall asleep]] within minutes.
+<</linkappend>>
+
+:: You fall asleep
+A notification wakes you up.
+
+You are approaching Resource Station L-One. Approximately 1100 miles away.
+
+There are multiple deliveries here and a collection box. 
+
+[[Leave this stop for another Nexus Transport.]]
+
+[[Engage Auto-Descent.]]
+
+:: Leave this stop for another Nexus Transport.
+
+Crew: Seriously
+
+Erson: <<linkappend "What" t8n>>
+
+Crew: Its like 3 Data Transfers. Lets just get it over with and split a Seltz.
+
+Erson: Alright. I overthought it
+
+[[Engage Auto Descent.]]
+<</linkappend>>
+:: Engage Auto-Descent.
+
+You instruct the A.I. to initiate the gradual descent towards the Resource Station.
+
+The A.I. notifies that the station is approximately 1100 miles away.
+
+Wind down with a[[cream cone.]]
+
+:: cream cone.
+
+You make your way down to food storage to <<linkappend "grab two cream cones.">>
+
+As you are grabbing a second cream cone for Crew, a [[Class-4 Warning]] audio blares throughout the corridors of the ship.
+
+
+<</linkappend>>
+
+:: Class-4 Warning
+
+A.I.: Cabin pressure is gradually decreasing.
+
+Crew: *Over the comms* Im checking the <<linkappend "A.I. protocol now.">>
+
+Crew: The air-lock hatch is loose.
+
+Erson: The same one I went through? 
+
+Crew: Same one
+
+<<linkappend "Erson: No clue how that happened.">>
+
+Crew: Dont worry, I'll suit up this time. Just have to re-engage the lock from inside the chamber.
+
+Erson: Do you want me to watch over the command center?
+
+Crew: <<linkappend "Up to you">>
+
+[[Watch over the command center]]
+
+[[Enjoy 2 cream cones]]
+<</linkappend>>
+<</linkappend>>
+<</linkappend>>
+:: Enjoy 2 cream cones
+/* Warning pressure at 45%
+YOU CALL OUT TO CREW WHO DOESNT answer
+
+You go towards the airlock chamber
+
+The door opens
+
+Erson: Crew? Did you re-engage the lock?
+
+Warning Pressure at 38% 
+
+A slim, hard shelled limb reaches out from the air-lock chamber.
+
+It is dripping an amber substance, like tree sap.
+
+It rushes towards you from the cieling.
+
+In your last moments you notice it has pieces of crews suit stuck between its <<linkappend "outcroppings of teeth." t8n>>
+
+[[Take another course of action|Class-4 Warning]]
+<</linkappend>>
+
+ */
+
+
+:: Watch over the command center
+
+You make your way to the command center.
+
+Erson: I'll keep an eye on the camera at least. Keep an eye out for ghosts.
+
+Crew: We're the only <<linkappend "ghosts on this ship.">>
+
+You sit down at the command center and [[turn on the video footage of the air-lock.]]
+
+
+<</linkappend>>
+:: turn on the video footage of the air-lock.
+
+You can see Crew stepping through the first compartment of the air-lock chamber.
+
+Erson: Secure yourself to the rope, Crew.
+
+Crew: The main components of the lock are inside.
+
+Erson: Just do it. <<linkappend "Protocol.">>
+
+She makes her way toward the end of the chamber.
+
+She stops suddenly, and grips a bar along the chamber wall.
+
+She is noticably silent. 
+
+Erson: [[What is it.]]
+
+
+
+<</linkappend>>
+
+:: What is it.
+
+Erson: What is it.
+
+A lanky, shelled limb pierces through Crew's left arm.
+
+You see now that it is connected to a <<linkappend "whale-sized shadow on the cieling.">>
+
+It is moving toward Crew.
+
+[[Open Air-Lock Chamber Door]]
+<</linkappend>>
+
+:: Open Air-Lock Chamber Door
+
+Light pours through the chamber
+
+The shadowy figure, [[and Crew]], tumble out of the ship.
+
+:: and Crew
+
+You see the charcoal, crustracean-like creature flailing away from the ship at great speed.
+
+It is spewing a vibrant magenta substance from its limbs.
+
+<<linkappend "You do not see Crew.">>
+
+But you engage the motor which [[pulls in the rope]] attached to the Air-Lock Chamber.
+
+
+<</linkappend>>
+
+:: pulls in the rope
+
+On the way to the Air-Lock. You begin reviving the ships medical team, and instruct the A.I. to notify them of the situation upon revival.
+
+
+
+You steadily make your way down to the chamber, uncertain of [[what you will see.]]
+
+:: what you will see.
+
+You see Crew's limp body just entering the edge of the Air-Lock.
+
+The rope pulls them into the primary chamber
+
+You lock the pressure and make the interior atmoshpere breathable. 
+
+[[You step in to view Crew]]
+
+:: You step in to view Crew
+
+You can not tell if they are alive.
+
+There face did not seem to be affected by the pressure.
+
+But there left arm has a 3 inch hole, that seems to be filled and sealed with the same magenta substance that was spewing from the creature.
+
+Soon after you experience this sight, the [[medical team enters.]]
+
+:: medical team enters.
+
+3 nurses place Crew onto a moving platform which follows them out of the chamber.
+
+3 Doctors have a quick word, and 2 of them leave the room.
+
+1 Doctor stays in the room , and turns directly towards you. 
+
+Doctor: Crew survived the Air-Lock dispersal, and the primary attack. 
+
+Erson: <<linkappend "But.">>
+
+Doctor: But we are unsure of [[what will happen next.]]
+
+
+
+
+<</linkappend>>
+
+:: what will happen next.
+
+Doctor: The team reviewed the data from the tests run on <<linkappend "that amber substance.">>
+
+It is was some [[sort of spore]] from that creature.
+
+It sends out a pheremone when it senses warm-blooded lifeforms. It attracts lone-females of its species.
+<</linkappend>>
+
+:: sort of spore
+
+Erson: And what of the magenta fluid. <<linkappend "Is it the same?">>
+
+Doctor: [[No.]]
+
+:: No.
+
+Doctor: No.
+
+They are unfertilized eggs.
+
+Erson: Unfertilized. As in not fertilized <<linkappend "yet.">>
+
+Two nurses step in and speak to the doctor.
+
+[[They step out]]
+<</linkappend>>
+<</linkappend>>
+:: They step out
+
+Erson: <<linkappend "Tell me.">>
+
+Doctor: They've amputated your friends arm. She is doing alright now. <<linkappend "Relatively." t8n>>
+
+
+Erson: [[What do you know about this creature.]]
+<</linkappend>>
+:: What do you know about this creature.
+
+Doctor: I know that we are all dead within the hour .
+
+Erson: What the hell did you see.
+
+Doctor: Its nothing out of the ordinary, I've just never been on this side of the deal before.
+
+Erson: [[What are you on about.]]
+<</linkappend>>
+
+
+
+:: What are you on about.
+
+Doctor: Exactly what you were concerned about. Unfertilized eggs.
+
+All the males within 100,000 miles are on their way to this ship.
+
+Erson: Just destroy the eggs.
+
+Doctor: They wont know theyre destroyed [[till they get here.]]
+
+:: till they get here.
+
+Erson: Well, we'll have something nice for them when they get here.
+
+Could you begin reviving the rest of the crew and the private personnel <<linkappend "please, Doctor?" t8n>>
+
+Doctor: What are we going to do, build a militia to ward of the intruders.
+
+Erson: Do it. Wake up the Special Service members first and have them [[initiate the escape pods.]]
+<</linkappend>>
+:: initiate the escape pods.
+
+Doctor: I am unsure exactly how the phermones work, they could be all over us.
+
+Erson: Even if thats the case, the main source is the ship. It'll buy us some time.
+
+Doctor: You know the pods wont outrun that thing.
+
+Erson: Damn it, Doctor. [[Revive the passengers.]]
+
+The escape pods are initiated for take off.
+
+About 2 dozen passengers and crew stumble into the pods. Barely revived from hibernation, they have little worry for their belongings.
+
+Crew is still unconscious, you see their face peeking out of the bed cover of the moving platform. 
+
+They enter the escape pod, and are sent off. 
+
+You tell a special service member to wait until sending the last pod.
+
+You make your way to [[the command center.]]
+
+:: the command center.
+
+You step inside the command center. 
+
+All warning audio is off, but there is a yellow warning light, <<linkappend "strobing rythmically accross the dashboard.">>
+
+Erson: Hello, A.I.
+
+A.I.: Hello, Commander.
+
+Erson: <<linkappend "Call me Erson.">> 
+
+Are we on the same page, [[A.I.]]?
+
+<</linkappend>>
+<</linkappend>>
+
+:: A.I. 
+
+Are we on the same page, A.I.?
+
+A.I.: Yes, Erson.
+
+Erson: Sock it to me.
+
+A.I.: I will initiate the self destruct sequence [[once the horde arrives on the ship.]]
+
+:: once the horde arrives on the ship.
+
+Erson: Its been a pleasure.
+
+<<linkappend "You walk out of the command center">>
+
+[[A.I.: I can not relate]]
+<</linkappend>>
+
+:: A.I.: I can not relate
+
+Making your way towards the final escape pod, you fight your attachments to the ship, and board without another look.
+
+[[The pod ejects]]
+
+:: The pod ejects 
+
+The pod ejects from the main vessel, frozen C02 and fuel shining through the small windows.
+
+About 12 minutes after departure, a bright light overtakes the window.
+
+A wave of energy rattles the escape pod [[soon after.]]
+
+:: soon after.
+
+Once, the light recedes, you <<linkappend "peer back in the direction the blast." t8n>> 
+
+You are unsure if the creatures survived, but the ship certainly did not. 
+
+Final Line.
+
+[[__________|Start]]
+<</linkappend>>
+/* 
+
+
+
+
+
+
+
+If you dont, crew dies quick and the alien takes over
+
+if you do, you notice a figure in the camera, and it attacks crew getting their arm. You see Crew is already onnected to rope, so open the airlock which send crew and the alien flying. 
+
+Crew stays attached by the rope, but goes unconscious
+
+you notice and describe the creature as it flies out
+You revive the medic as you are pulling crew in
+
+Medic 
+
+                    Have the spores be yellow but the babies be purple. Purple means they will come back to nest
+
+Once inside the results from the test come back 
+
+noting that the yellow spores release a pheremone when they find the proper level of life
+
+and the purple is a fluid that carries eggs
+
+and when the eggs are laid, the entire colony travels to nurture and protect it. 
+
+revive medic
+
+they review data from the spores
+
+bad news, we'll have to amputate
+
+good news, we,ll only have to amputate
+
+the eggs have not spread and are isolated to the arm 
+
+but we still have the spores and the arm
+
+and the alien colony will travel to the eggs in high numbers
+
+revive the weapons dude, plan out attack 
+
+use arm as bait
+     
+     Load remaining passengers into escape pod
+
+Members decide to use the escape pod and use the main ships nucelar fusion thingy dook to completly wreck mode the aliens 
+They all get wrecked moded
+
+bamshwam anchorman
+
+
+
+"
+*/
+
+
+:: Ignore the obstruction.
 <<audio "Boop" stop>>
 You shut off the warning audio.
 
-You now realize your ever-increasing hunger. 
+Another <<linkappend "alarm goes off." t8n>> 
+
+This time from your stomach.
+
 
 [[Forget it]]
 
 [[Visit the food storage]]
-
+<</linkappend>>
 :: Forget it
 
 You cant seem to forget about it.
 
 But you decide not to get up
 
-You <<linkappend "look around">>
-There is 
+You <<linkappend "look around from your chair">>
+
+You gaze around the command center for something edible.
+
+In your laziness, you end up [[falling asleep]] /*wake up at the next resource Station  */ 
 
 <</linkappend>>
 
+:: falling asleep
+<<audio "Notification" play>>
+A notification wakes you up.
+
+You are approaching Resource Station L-One. Approximately 1100 miles away.
+
+There are multiple deliveries here and a collection box. 
+
+[[Leave this stop for another Nexus Transport]]
+
+[[Engage Auto-Descent]]
+:: Leave this stop for another Nexus Transport
+<<audio "Notification" stop>>
+
+The deliveries were digital-class. All Nexus Transports have cloud access
+ 
+Transports utilize an analog data delivery at select Resource Stations.
+
+You feel fine knowing the deliveries should still arrive to their recipients on time.
+
+You check the <<linkappend "flight-plan">>
+
+
+
+Nothing is set for weeks except the Deep-Space Transfer; an exchange of private personnel and items.
+
+
+
+Reward yourself with a [[cream cone]]
+<</linkappend>>
+:: cream cone
+You walk down to food storage with <<linkappend "a pleasant feeling" t8n>>
+<<audio "Loud Warning" play>>
+As you turn the corner to the food storage, a Class 4 warning audio blares through the corridors.
+
+The ship's pressure is rapidly decreasing.
+
+[[Access the A.I. protocol database]]
+<</linkappend>>
+:: Access the A.I. protocol database
+
+You run to the command center and <<linkappend "have the A.I. advise you on a solution." t8n>>
+
+The A.I. notifies you of a loose air-lock hatch.
+
+Nothing seems to be faulty , but you will need to manually re-engage the air-lock door.
+
+There is too little time to wake up another member of the crew.
+
+You suit up quickly, and make your way towards the [[air-lock chamber.]]
+<</linkappend>>
+
+:: air-lock chamber.
+/*cabin pressure at 70 % audio */
+
+You disengage the primary hatch splitting the air-lock and the rest of the cabin.
+
+[[You step in]]
+
+:: You step in
+You make your way through the chamber and towards the loose hatch. 
+
+You notice an [[amber substance.]]
+
+:: amber substance. 
+
+You notice an amber substance.
+
+It is like tree sap.
+
+It glitters and shines from the light peering through the crack in the hatch.
+
+[[You reach out to touch it.]]
+
+:: You reach out to touch it.
+<<audio "alien Attack" play>>
+You reach out to touch it.
+
+An organic limb strikes through your left thigh, shattering your femur.
+
+The limb is reminscient of a crustracean. It is a connected to a large creature creeped up on the cieling behind you. It is <<linkappend "the color of charcoal.">>
+
+The limb rips through your hip, up your torso and chest.
+
+Your last moments of consciousness are filled with [[concern for the hibernating crew and passengers.]]
+
+
+<</linkappend>>
+
+:: concern for the hibernating crew and passengers.
+
+/* doors opening, dehibernation sequence, and obvious sound that the alien is going to eat the rest of the crew ((If not just a description)) */
+
+[[Attempt another course of action]]
+
+/* If they chose "leave this stop" link back to [falling asleep] with only "Engage Auto-descent avialable-- and vice verse
+If they have done both, link back to [Recalibrate] with only "Suit up" available
+*/
+
+:: Engage Auto-Descent
+<<audio "Notification" stop>>
+The ship's A.I. begins slowing down the craft and approaching the designated landing point. 
+
+Based on the schedule, this is the last minimal stop before <<linkappend "traveling into deep space." t8n>>
+
+You prepare yourself with a [[cream cone]] 
+<</linkappend>>
 
 :: Visit the food storage
+/*5 sec foot step clip */
 
-<<linkappend "Oh">>  /* how to have this appear 5 seconds in (Timed with a 5 second footstep clip) */
-You notice a     on your way to the food storage.
+You remember a [[protein lollipop]] in your arm satchel as you are getting out of your chair.
 
-Would you [[want it]] or [[not]] /* How to have both of these displayed (Will end up using passages but should learn this) */
-/* want it" You should get some ____ first */
+:: protein lollipop
 
+You remember a protein lollipop in your arm satchel as you are getting out of your chair.
 
-   
+Its got 22 grams of protein and <<linkappend "11 Essential Vitamins">>
+
+You sit back down and begin eating the lollipop
+
+It is so overhwelmingly nutritious that you [[fall asleep|falling asleep]]
 <</linkappend>>
+/* Get food and item
 
-/* You can find the item necessary to grab the first one in the hallway only if they "want it"
+possibly Another warning that liks to Suit up
+Or maybe have this path not have you hear another warning and you dont go out until after the resource station
+Go to resource station
+ */
 
-Have them possibly find it and then on their way back get the first item.  */
-
-::Want it
-You should get some ____ first
-
-That should be in the [[food storage]]
-/*how to make this both Not and food storage */
-::Not 
-/*footstep audio */
-
-you enter the storage decide to grab 2 packets of freeze dried fruit: Banana and Mango  */

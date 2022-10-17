@@ -1,46 +1,17 @@
 body {
     
-    background-image: url("Linte Act.jpeg");
-    background-size: 800px 500px
-    px;
-    background-color: #cccccc;
+    
+    background-color:midnightblue
    }
 
-body {
-    color:rgb(147, 167, 83)
-}
-.class {
-color:rgb(159, 126, 40)
-}
-
-/* unvisited link */
-a:link {
-    color: rgb(181, 49, 49);
-  }
-  
-  /* visited link */
-  a:visited {
-    color: rgb(162, 170, 162);
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: rgb(119, 91, 105);
-  }
-  
-  /* selected link */
-  a:active {
-    color: rgb(135, 135, 170);
-  }
+   .hidden {
+    visibility: hidden;
+   }
+   
+   .nothidden {
+    visibility: visible;
+   }
 
 
-  .theyreason {
-    color:rgb(167, 72, 184)
-  }
 
-  body[data-tags~="shoes"]  {
-    background-image: url("_MG_1214.JPG");
-	background-repeat: no-repeat;
-	background-size: cover;
-  }
-
+    

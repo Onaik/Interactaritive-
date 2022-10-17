@@ -123,7 +123,7 @@ You set out to the [[air-lock chamber]]
 You make your way to the exit hatch.
 
 You attach your suit to a rope extruding from a panel on the <<linkappend "edge of the ship.">>
-<<audio "Breathing" play>>
+/*<<audio "Breathing" play>>*/
 You make your way towards to the speed sensor.
 
 [[Slowly.]]
@@ -647,7 +647,7 @@ In your laziness, you end up [[falling asleep]] /*wake up at the next resource S
 <</linkappend>>
 
 :: falling asleep
-<<audio "Notification" play>>
+/*<<audio "Notification" play>>*/
 A notification wakes you up.
 
 You are approaching Resource Station L-One. Approximately 1100 miles away.
@@ -658,7 +658,7 @@ There are multiple deliveries here and a collection box.
 
 [[Engage Auto-Descent]]
 :: Leave this stop for another Nexus Transport
-<<audio "Notification" stop>>
+/*<<audio "Notification" stop>>*/
 
 The deliveries were digital-class. All Nexus Transports have cloud access
  
@@ -678,7 +678,7 @@ Reward yourself with a [[cream cone]]
 <</linkappend>>
 :: cream cone
 You walk down to food storage with <<linkappend "a pleasant feeling" t8n>>
-<<audio "Loud Warning" play>>
+/*<<audio "Loud Warning" play>>*/
 As you turn the corner to the food storage, a Class 4 warning audio blares through the corridors.
 
 The ship's pressure is rapidly decreasing.
@@ -721,7 +721,7 @@ It glitters and shines from the light peering through the crack in the hatch.
 [[You reach out to touch it.]]
 
 :: You reach out to touch it.
-<<audio "alien Attack" play>>
+/*<<audio "alien Attack" play>>*/
 You reach out to touch it.
 
 An organic limb strikes through your left thigh, shattering your femur.
@@ -751,7 +751,7 @@ If they have done both, link back to [Recalibrate] with only "Suit up" available
 */
 
 :: Engage Auto-Descent
-<<audio "Notification" stop>>
+/*<<audio "Notification" stop>>*/
 The ship's A.I. begins slowing down the craft and approaching the designated landing point. 
 
 Based on the schedule, this is the last minimal stop before <<linkappend "traveling into deep space." t8n>>
